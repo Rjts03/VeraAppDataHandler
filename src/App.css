@@ -1,0 +1,80 @@
+.App {
+  text-align: center;
+}
+
+.app-header {
+  height: 100px;
+}
+
+.app-header header {
+  height: 100%;
+  padding: 15px;
+}
+
+.app-header header a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.app-header header div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.app-header header a:hover {
+  text-decoration: none;
+  color: grey;
+  font-weight: bold;
+}
+
+.menu-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  padding: 50px
+}
+
+.home-menu {
+  width: 50%;
+  border: 1px solid white;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rad-sel {
+  margin: 10px; 
+}
+
+.home-menu a {
+  text-decoration: none;
+}
+
+.app-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+}
+
+.form-srch {
+  width: 40%;
+  margin: 10px;
+}
+
+.form-btn {
+  width: 20%;
+  margin: 10px;
+}
+
+.app-form a {
+  text-decoration: none;
+}
+
+.posts-wrapper {
+  max-height: 86vh;
+  overflow: scroll;
+}

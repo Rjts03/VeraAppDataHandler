@@ -1,0 +1,10 @@
+* {
+    box-sizing: border-box;
+}
+
+.tag-btn {
+    width: 100%;
+    letter-spacing: 0.5px;
+    color: white;
+    font-weight: bold;
+}
